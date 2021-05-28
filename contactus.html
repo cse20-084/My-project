@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="Body5">
+    <div class="navbar">
+        <nav> 
+          <ul>
+          <li><a href="index.html" class="link">Home</a></li>
+          <li><a href="Lifestyle.html" class="link">Lifestyle</a></li>
+               <li><a href="Attractions.html" class="link">Attractions</a></li>
+               <li><a href="events.html" class="link">Events</a></li>
+               <li><a href="about.html" class="link">About</a></li>
+               <li><a href="nightlife.html" class="link">Night Life</a></li>
+               <li><a href="contactus.html" class="link">Contact Us</a></li>
+        </ul>
+        </nav>
+        </div>
+        <div id="divcontentConnect">
+            <div id="divform">
+               
+                     <form name="ConnectWithUS" action="thankYou.html" method="GET">
+                    
+                        <legend>PLEASE FILL IN THE BLANK SPACES</legend>
+                        <label class="label" for="firstname">FirstName</label>
+                        <input type="text" class="input" name="firstname" placeholder="Firstname"> 
+                        <br>
+                        <label class="label" for="lastname" >LastName</label>
+                        <input type="text" class="input" name="lastname" placeholder="Lastname"> 
+                        <br>
+                        <label class="label" for="gender">Gender</label>
+                        <label class="check"><input type="radio" id="gender" name="gender" value="M">Male</label>
+                        <label class="check"><input type="radio" id="gender" name="gender" value="F">Female</label>
+                        <br>
+                        <label class="label" for="country">Country</label>
+                        <input type="text" class="input" name="country" placeholder="Country"> 
+                        <br>
+                        <label class="label" for="region">Region</label>
+                        <select id="region" name="region">
+                            <option value="0" >Select..</option>
+                            <option value="AS">Asia</option>
+                            <option value="AF">Africa</option>
+                            <option value="AQ">Antartica</option>
+                            <option value="AU">Australia</option>
+                            <option value="Eur">Europe</option>
+                            <option value="NA">North America</option>
+                            <option value="SA">South America</option>
+                         </select>
+                        <br>
+                        <label class="label" for="email">Email</label>
+                        <input type="text" class="input" name="email" placeholder="Email"> 
+                        <br>
+                        <input type="submit" id="submit" name="submit" value="Submit"/>
+                        <input type="reset" id="reset" name="reset" value="Reset"/>
+                     </form>
+                
+    
+
+            </div>
+    </div>
+</body>
+</html>
